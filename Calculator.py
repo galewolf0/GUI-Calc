@@ -255,7 +255,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Calculator"))
-        self.Screen.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" color:#ffffff;\">0</span></p></body></html>"))
+        self.Screen.setText(_translate("MainWindow", "0"))
         self.CButton.setText(_translate("MainWindow", "C"))
         self.divideButton.setText(_translate("MainWindow", "/"))
         self.xButton.setText(_translate("MainWindow", "x"))
